@@ -1,4 +1,20 @@
 body {
+	background: #f9e933;
+}
+
+header, main, footer {
+	min-width: 855px;
+}
+
+header {
+	background-color: white;
+}
+
+main {
+	background-color: white;
+}
+
+body {
 	font-size: 100%; /* this sets the base font size for everything */
 	font-family: 'Raleway', sans-serif;
 }
