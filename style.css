@@ -1,0 +1,20 @@
+body {
+	font-size: 100%; /* this sets the base font size for everything */
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-size: xx-large; /* sets it relative to tge base font size */
+}
+
+h2 {
+	font-size: x-large;
+}
+
+.important {
+	font-size: larger; /* makes it a little larger than the parent */
+}
+
+.onePointTwo {
+	font-size: 1.2em; /* sets it to 1.2em times the base size*/
+}
