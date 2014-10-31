@@ -1,20 +1,5 @@
 body {
 	background: #f9e933;
-}
-
-header, main, footer {
-	min-width: 855px;
-}
-
-header {
-	background-color: white;
-}
-
-main {
-	background-color: white;
-}
-
-body {
 	font-size: 100%; /* this sets the base font size for everything */
 	font-family: 'Raleway', sans-serif;
 }
@@ -34,3 +19,54 @@ h2 {
 .onePointTwo {
 	font-size: 1.2em; /* sets it to 1.2em times the base size*/
 }
+
+header, main, footer {
+	min-width: 855px;
+}
+
+header {
+	background-color: white;
+	overflow: auto;
+}
+
+main {
+	background-color: white;
+	padding: 50px;
+}
+
+header h1 {
+	float: left;
+	width: 570px;
+}
+
+header nav {
+	float: right;
+	width: 285px;
+}
+
+
+main h2, h3, ul, p {
+	width: 570px;
+	float: left;
+	margin-right: 100px;
+}
+
+.cf:before,
+.cf:after {
+	content: " ";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+footer {
+	padding: 50px;
+}
+
+footer .contact {
+	float: right;
+	width: 285px;
+}
+
